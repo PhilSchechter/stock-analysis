@@ -13,12 +13,17 @@ However, not all Green stocks are the same. This analysis attempts to see which 
  [VolumeAndReturns](/resources/Returns17and18.PNG)
 
 The stock that triggered this analysis was DQ. We can see in 2017, it value went up by almost 200% on fairly light trading. In 2018, it fell by about 62.6% on much heavier trading – this would certainly call for more investigation. If trading remains heavy, that would be a signal that the market views the 2018 correction favorably, and it may now be fairly priced.
+
 ENPH may have an interesting story – that went up by a factor of 3.8 over the two year period (129% up in 2017, 82 up in 2018) with heavy trading – may be worth a further look.
 A major takeaway – almost everything else did very well in 2017, poorly in 2018. It seems like this sector has a lot of potential, but a lot of volatility; may be attractive to day trading if you think you can beat the market, but otherwise, should be prepared to hold for the long haul, and not check your statements too often.
-###Comments on Coding
+
+### Comments on Coding
 Our first attempt at coding the full analysis was based on picking one ticker at a time, then reading through all the data (preliminary approach). This was later refined (refactored) to read through the full data set only once, and sending each entry’s data to the record for the appropriate ticker as we went.
+
 In pseudo-code:
 #### Preliminary approach
+*in sub AllStocksAaalysis* 
+
 For each **stock ticker** 
 * For each line of data
 	* Look at the ticker code in the data
@@ -28,8 +33,12 @@ For each **stock ticker**
 	* Next line of data
 * Next Stock Ticker
 #### Refactored approach
+*in sub AllStocksAnalysisRefactored*
 
 *only reading in each line of data once*
+
+
+
 * For each **line of data**
 	* See which ticker this data belongs to
 	* Increment the trade volume for the appropriate ticker
