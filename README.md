@@ -19,22 +19,23 @@ A major takeaway – almost everything else did very well in 2017, poorly in 201
 Our first attempt at coding the full analysis was based on picking one ticker at a time, then reading through all the data (preliminary approach). This was later refined (refactored) to read through the full data set only once, and sending each entry’s data to the record for the appropriate ticker as we went.
 In pseudo-code:
 #### Preliminary approach
-For each stock ticker
-	For each line of data
-		Look at the ticker code in the data
-		If this is the ticker from the out loop, accumulate the trading volume,
-		If it is the first instance of the ticker, set the starting price
-		If it is the last instance, set the ending price
-	Next line of data
-Next Stock Ticker
-####R efactored approach
+For each **stock ticker** 
+* For each line of data
+	* Look at the ticker code in the data
+		*	If this is the ticker from the out loop, accumulate the trading volume,
+		*	If it is the first instance of the ticker, set the starting price
+		*	If it is the last instance, set the ending price
+	* Next line of data
+* Next Stock Ticker
+#### Refactored approach
 
-For each line of data
-	See which ticker this data belongs to
-	Increment the trade volume for the appropriate ticker
-	If it is the first instance of the ticker, set the starting price
-	If it is the last instance, set the ending price
-Next line of data
+*only reading in each line of data once*
+* For each **line of data**
+	* See which ticker this data belongs to
+	* Increment the trade volume for the appropriate ticker
+	* If it is the first instance of the ticker, set the starting price
+	* If it is the last instance, set the ending price
+* Next line of data
 
 The run time for the preliminary approach was about 1 second 
 - [Prelim Method Timestamp](/Resources/FirstMethodTimeStamp.png)
