@@ -10,7 +10,7 @@ However, not all Green stocks are the same. This analysis attempts to see which 
 ## Results
 ### Results of the analysis
 
- [Trade Volumes and Returns](/resources/Returns 17 and 2018.PNG)
+ [VolumeAndReturns](/resources/Returns 17 and 2018.PNG)
 
 The stock that triggered this analysis was DQ. We can see in 2017, it value went up by almost 200% on fairly light trading. In 2018, it fell by about 62.6% on much heavier trading – this would certainly call for more investigation. If trading remains heavy, that would be a signal that the market views the 2018 correction favorably, and it may now be fairly priced.
 ENPH may have an interesting story – that went up by a factor of 3.8 over the two year period (129% up in 2017, 82 up in 2018) with heavy trading – may be worth a further look.
