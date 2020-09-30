@@ -29,7 +29,7 @@ For each **stock ticker**
 	* Look at the ticker code in the data
 		*	If this is the ticker from the out loop, accumulate the trading volume,
 		*	If it is the first instance of the ticker, set the starting price
-		*	If it is the last instance, set the ending price
+		*	If it is the last instance, set the ending price 
 	* Next line of data
 * Next Stock Ticker
 #### Refactored approach
