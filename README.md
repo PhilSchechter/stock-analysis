@@ -10,7 +10,7 @@ However, not all Green stocks are the same. This analysis attempts to see which 
 ## Results
 ### Results of the analysis
 
- [VolumeAndReturns](/resources/Returns17and18.PNG)
+ [VolumeAndReturns](/Resources/Returns17and18.PNG)
 
 The stock that triggered this analysis was DQ. We can see in 2017, it value went up by almost 200% on fairly light trading. In 2018, it fell by about 62.6% on much heavier trading – this would certainly call for more investigation. If trading remains heavy, that would be a signal that the market views the 2018 correction favorably, and it may now be fairly priced.
 
@@ -50,8 +50,8 @@ The run time for the preliminary approach was about 1 second
 - [Prelim Method Timestamp](/Resources/FirstMethodTimeStamp.png)
 
 The refactoring improved the run time to about 0.4 seconds 
--	[time stamp 2017](/resources/VBA_Challenge_2017.png)
--	[time stamp 2017](/resources/VBA_Challenge_2018.png)
+-	[time stamp 2017](/Resources/VBA_Challenge_2017.png)
+-	[time stamp 2017](/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 For this particular analysis as a one-off project, the refactoring was not necessary  - the stock analysis was completed with the initial code, and these results were used to validate the refactored code. So from that perspective, there was no need to rewrite the code.
