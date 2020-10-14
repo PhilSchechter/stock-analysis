@@ -47,11 +47,11 @@ For each **stock ticker**
 * Next line of data
 
 The run time for the preliminary approach was about 1 second 
-- [Prelim Method Timestamp](/Resources/FirstMethodTimeStamp.png)
+- [Prelim Method Timestamp](/Resources/FirstMethodTimeStamp.PNG)
 
 The refactoring improved the run time to about 0.4 seconds 
 -	[time stamp 2017](/Resources/VBA_Challenge_2017.png)
--	[time stamp 2017](/Resources/VBA_Challenge_2018.png)
+-	[time stamp 2017](/Resources/VBA_Challenge_2018.PNG)
 
 ## Summary
 For this particular analysis as a one-off project, the refactoring was not necessary  - the stock analysis was completed with the initial code, and these results were used to validate the refactored code. So from that perspective, there was no need to rewrite the code.
